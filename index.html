@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Pribadi - Nama Saya</title>
+  <link rel="stylesheet" href="/src/scss/main.scss">
+
+</head>
+<body>
+
+  <header>
+    <h1>Halo, Saya Arrifan Ryansyah</h1>
+    <p>Mahasiswa Ilmu Komputer</p>
+    <nav aria-label="Menu navigasi utama">
+      <ul>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#hobi">Hobi</a></li>
+        <li><a href="#pendidikan">Pendidikan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <figure>
+      <img src="edit.jpg" alt="Foto profil saya" width="150" height="150">
+      <figcaption>Ini foto profil saya</figcaption>
+    </figure>
+
+    <section id="tentang">
+      <h2>Tentang Saya</h2>
+      <p>Nama saya Arrifan Ryansyah. Saya mahasiswa semester awal Ilmu Komputer yang lagi belajar HTML5. Halaman ini adalah tugas pertemuan pertama saya. saya harap saya dapat mengembangkan lagi minat saya dalam teknologi informasi agar dapat mencapai tujuan saya.</p>
+    </section>
+
+    <section id="hobi">
+      <h2>Hobi</h2>
+      <ul>
+        <li>Traveling</li>
+        <li>Gaming</li>
+        <li>Sports</li>
+        <li>Fotography</li>
+        <li>Videography</li>
+      </ul>
+    </section>
+
+    <section id="pendidikan">
+      <h2>Pendidikan</h2>
+      <ul>
+        <li>Universitas Negeri Medan (2025 - Sekarang)</li>
+        <li>SMA Swasta Islam Al-Ulum Terpadu Medan (2022-2025)</li>
+        <li>SMP Swasta Islam Al-Ulum Terpadu Medan (2019-2022)</li>
+        <li>SD Swasta Muhammadiyah 02 Medan (2013-2019)</li>
+      </ul>
+    </section>
+
+    <section id="kontak">
+      <h2>Hubungi Saya</h2>
+      <form action="#" method="post">
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="nama" required aria-required="true" placeholder="Masukkan nama Anda">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required aria-required="true" placeholder="contoh@email.com">
+
+        <label for="pesan">Pesan</label>
+        <textarea id="pesan" name="pesan" rows="4" required aria-required="true" placeholder="Tulis pesan Anda di sini"></textarea>
+
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+
+  </main>
+  <footer>
+    <p>&copy; 2026 Arrifan Ryansyah. All Right Reserved.</p>
+  </footer>
+
+</body>
+</html>
